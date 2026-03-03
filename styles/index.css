@@ -1,4 +1,22 @@
 #wrap main {}
-#wrap main #slide_wrap {}
-#wrap main #slide_wrap .slide_container {}
-#wrap main #slide_wrap .slide_container .slide_list {}
+#wrap main #slide_wrap {display: flex; justify-content: center;}
+#wrap main #slide_wrap .slide_container {position: relative;}
+#wrap main #slide_wrap .slide_container .slide_list {display: flex; flex-flow: row nowrap;}
+#wrap main #slide_wrap .slide_container .slide_list .slide {height: 520px; width: 1280px; }
+#wrap main #slide_wrap .slide_container .slide_list .slide1 {background-image: url(../images/hero_banner_001.jpg);}
+#wrap main #slide_wrap .slide_container .slide_list .slide2 {background-image: url(../images/hero_banner_002.png);}
+#wrap main #slide_wrap .slide_container .slide_list .slide3 {background-image: url(../images/hero_banner_003.png);}
+#wrap main #slide_wrap .slide_container .slide_list .slide1 a {}
+#wrap main #slide_wrap .slide_container .slide_list .slide a .slide_txt {color: #fff; text-align: center;}
+#wrap main #slide_wrap .slide_container .slide_list .slide a .slide_txt p {font-size: 0.88rem;}
+#wrap main #slide_wrap .slide_container .slide_list .slide a .slide_txt h1 {font-size: 2.25rem; font-weight: 700;}
+#wrap main #slide_wrap .slide_container button {}
+#wrap main #slide_wrap .slide_container .prev_btn {}
+#wrap main #slide_wrap .slide_container .prev_btn img {}
+#wrap main #slide_wrap .slide_container .next_btn {}
+#wrap main #slide_wrap .slide_container .next_btn img {}
+#wrap main #slide_wrap .slide_container .pagination {}
+#wrap main #slide_wrap .slide_container .pagination .pg_number {}
+#wrap main #slide_wrap .slide_container .pagination .pg_all {}
+#wrap main #slide_wrap .slide_container .pagination button {}
+#wrap main #slide_wrap .slide_container .pagination button img {}

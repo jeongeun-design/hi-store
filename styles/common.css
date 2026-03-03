@@ -87,7 +87,26 @@ body {}
     background-color: blue;
 }
 #wrap header .h_bottom #gnb ul .full_menu #menu_open img{}
-#wrap header .h_bottom #gnb ul .full_menu .depth1 {display: none;}/* 풀메뉴 */
+#wrap header .h_bottom #gnb ul .full_menu .depth1 {}/* 풀메뉴 */
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li {}
+/* 베스트 상품 */
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_best {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_best h2 {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_ul {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_ul li {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_best .h_ul li a {width: 100px;}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_ul li a img {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_ul li a .h_best_brand {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .h_ul li a .h_best_title {}
+/* 베스트 상품 */
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li a {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth2 {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth2 li {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth2 li a {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth2 li a img {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth3 {display: none;}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth3 li {}
+#wrap header .h_bottom #gnb ul .full_menu .depth1 li .depth3 li a {}
 /* ----------------------------------------------------------- f_top */
 #wrap footer {}
 #wrap footer #f_top {}
