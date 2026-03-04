@@ -59,8 +59,8 @@
                             </button>
                             <ul class="depth1">
                                 <li>
-                                    <a href="#">교과서/도서</a>
-                                    <ul class="depth2">
+                                    <a href="#" class="active">교과서/도서</a><!-- id -->
+                                    <ul class="depth2" id="depth2_subject">
                                         <li><a href="#">아이스크림교과서<img src="./images/down.svg" alt="더보기"></a></li>
                                         <li><a href="#">원서/학습서<img src="./images/down.svg" alt="더보기"></a></li>
                                         <li><a href="#">청소년 추천도서<img src="./images/down.svg" alt="더보기"></a></li>
@@ -73,7 +73,7 @@
                                 </li>
                                 <li>
                                     <a href="#">학습교구</a>
-                                    <ul>
+                                    <ul class="depth2">
                                         <li>
                                             <a href="#">과목별 교구<img src="./images/down.svg" alt="더보기"></a>
                                             <ul class="depth3">
@@ -87,7 +87,7 @@
                                                 <li><a href="#">코딩 교구</a></li>
                                             </ul>
                                         </li>
-                                        <li>
+                                        <li class="depth2">
                                             <a href="#">퍼즐/보드/DIY<img src="./images/down.svg" alt="더보기"></a>
                                             <ul class="depth3">
                                                 <li><a href="#">DIY만들기</a></li>
@@ -140,12 +140,12 @@
                                                 </ul>
                                             </li>
                                         </ul>
-                                        <div class="h_best">
+                                        <div class="h_best1 h_best"><!-- 클래스 -->
                                             <h2>베스트 상품</h2>
                                             <ul>
                                                 <li>
                                                     <a href="#">
-                                                        <img src="./images/best_school_supplies.png" alt="">
+                                                        <p><img src="./images/best_school_supplies.png" alt=""></p>
                                                         <p class="h_best_brand">아이스크림</p>
                                                         <p class="h_best_title">한글, 틀려도 괜찮아!(받아쓰기 워크북/음성자료 제공, 4학년 신규 출시)</p>
                                                     </a>
@@ -192,7 +192,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#">학습환경</a>
+                                </li>
+                                <li><!-- 태그내용수정필요 -->
+                                    <a href="#">식품/건강</a>
                                     <ul class="depth2">
                                         <li>
                                             <a href="#">가구/수납<img src="./images/down.svg" alt="더보기"></a>
@@ -272,7 +274,7 @@
                                 </li>
                             </ul>
                         </li>
-                        <li><a href="#">체험티켓</a></li>
+                        <li class="main_menu"><a href="#">체험티켓</a></li>
                         <li><a href="#">베스트</a></li>
                         <li><a href="#">신상품</a></li>
                         <li><a href="#">기획전</a></li>
