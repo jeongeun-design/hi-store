@@ -1,7 +1,7 @@
 #wrap main {}
 #wrap main #slide_wrap {display: flex; justify-content: center;}
 #wrap main #slide_wrap .slide_container {position: relative;}
-#wrap main #slide_wrap .slide_container .slide_list {display: flex; flex-flow: row nowrap;}
+#wrap main #slide_wrap .slide_container .slide_list {display: none; flex-flow: row nowrap;}
 #wrap main #slide_wrap .slide_container .slide_list .slide {height: 520px; width: 1280px; }
 #wrap main #slide_wrap .slide_container .slide_list .slide1 {background-image: url(../images/hero_banner_001.jpg);}
 #wrap main #slide_wrap .slide_container .slide_list .slide2 {background-image: url(../images/hero_banner_002.png);}
