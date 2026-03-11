@@ -1,7 +1,9 @@
+/* ----------------------------------------------------------- main */
 #wrap main {}
+/* ----------------------------------------------------------- 슬라이드 배너 */
 #wrap main #slide_wrap {display: flex; justify-content: center;}
 #wrap main #slide_wrap .slide_container {position: relative;}
-#wrap main #slide_wrap .slide_container .slide_list {display: none; flex-flow: row nowrap;}
+#wrap main #slide_wrap .slide_container .slide_list {display: flex; flex-flow: row nowrap;}
 #wrap main #slide_wrap .slide_container .slide_list .slide {height: 520px; width: 1280px; }
 #wrap main #slide_wrap .slide_container .slide_list .slide1 {background-image: url(../images/hero_banner_001.jpg);}
 #wrap main #slide_wrap .slide_container .slide_list .slide2 {background-image: url(../images/hero_banner_002.png);}
@@ -20,3 +22,45 @@
 #wrap main #slide_wrap .slide_container .pagination .pg_all {}
 #wrap main #slide_wrap .slide_container .pagination button {}
 #wrap main #slide_wrap .slide_container .pagination button img {}
+/* ----------------------------------------------------------- contents 상품 제목 product_title */
+#wrap main .product_title {background-color: aquamarine; margin-bottom: 36px;}
+#wrap main .product_title h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 32px
+}
+#wrap main .product_title .all_veiw {}
+#wrap main .product_title .all_veiw img {}
+/* ----------------------------------------------------------- contents1------장바구니 엿보기 */
+#wrap main #product_md {width: 1280px; margin: 0 auto;}
+#wrap main #product_md #md_list {
+    display: flex; flex-flow: row nowrap; 
+    justify-content: center;
+    column-gap: 1.75rem; row-gap: 2.25rem;
+}
+#wrap main #product_md #md_list .md_item {width: 300px;}
+#wrap main #product_md #md_list .md_item a {}
+#wrap main #product_md #md_list .md_item a .md_img {width: 300px; margin-bottom: 8px;}
+#wrap main #product_md #md_list .md_item a .md_img img {width: 100%;}
+#wrap main #product_md #md_list .md_item a .brand {
+    font-size: 0.88rem;
+    color: rgba(55 65 81);
+    margin-bottom: 8px;
+}
+#wrap main #product_md #md_list .md_item a h2 {
+    font-size: 0.94rem;
+    margin-bottom: 8px;
+}
+#wrap main #product_md #md_list .md_item a .price {}
+#wrap main #product_md #md_list .md_item a .price span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 28px;
+}
+#wrap main #product_md #md_list .md_item a .price .discount {color: rgba(255 53 80);}
+#wrap main #product_md #md_list .md_item a .price .current {}
+#wrap main #product_md #md_list .md_item a .price .original {}
+#wrap main #product_md #md_list .md_item a .price .badge_box {margin-top: 8px;}
+#wrap main #product_md #md_list .md_item a .price .badge_box .event {height: 26px;}
+#wrap main #product_md #md_list .md_item a .price .badge_box .event img {height:100%;}
+

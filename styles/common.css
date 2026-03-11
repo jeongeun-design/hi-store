@@ -1,4 +1,4 @@
-body {min-width: 1200px;}
+body {min-width: 1280px;}
 #wrap {}
 #wrap header {}
 /* ----------------------------------------------------------- h_top */
@@ -73,23 +73,25 @@ body {min-width: 1200px;}
 #wrap header .h_bottom #gnb ul {
     display: flex; flex-flow: row nowrap;
 }
-#wrap header .h_bottom #gnb > ul > li {height: 55px;
+#wrap header .h_bottom #gnb > ul > li {
+    /* padding: 14px 6px; */
+}
+/* #wrap header .h_bottom #gnb > ul > li a {
+    line-height: 55px;
     font-size: 1.13rem;
     color: #666;
     background-color: darkseagreen;
-    padding: 14px 6px; 
     margin: 0 32px 0 0;
-}
-#wrap header .h_bottom #gnb ul li > .main_menu {
+} */
+#wrap header .h_bottom #gnb ul .main_menu a {
     font-size: 1.13rem;
     color: #666;
     background-color: darkseagreen;
-    padding: 14px 6px; 
+    /* padding: 14px 6px;  */
     margin: 0 32px 0 0;
 }
-#wrap header .h_bottom #gnb ul .full_menu {
-    
-}
+#wrap header .h_bottom #gnb ul .full_menu {}
+#wrap header .h_bottom #gnb ul .full_menu #menu_open:hover + .depth1 {display: flex;}
 #wrap header .h_bottom #gnb ul .full_menu #menu_open {
     width: 40px; height: 40px; 
     background-color: blue;
@@ -98,7 +100,8 @@ body {min-width: 1200px;}
 #wrap header .h_bottom #gnb ul .full_menu .depth1 {/* 풀메뉴 */
     background-color: aqua;
     height: 326px;
-    display: flex; flex-flow: column nowrap;
+    display: none; flex-flow: column nowrap; position: absolute; z-index: 99;
+    width: 1200px;
 }
 #wrap header .h_bottom #gnb ul .full_menu .depth1::before {/* depth1~2 구분선 */
     /* content: '';
@@ -188,6 +191,20 @@ body {min-width: 1200px;}
     font-size: 0.88rem;
 }
 /* 베스트 상품 */
+/* ----------------------------------------------------------- main */
+#wrap main {}
+
+/* ----------------------------------------------------------- 위로가기 fab */
+#wrap main .fab {
+    display: flex; flex-flow: row nowrap;
+    justify-content: center;
+    background-color: chartreuse;
+    width: 56px; height: 56px; padding: 10px;
+    border-radius: 50%;
+    position: fixed; z-index: 999;
+    right: 100px; bottom: 100px;
+}
+#wrap main .fab img {width: 100%;}
 /* ----------------------------------------------------------- f_top */
 #wrap footer {}
 #wrap footer #f_top {}
@@ -214,14 +231,3 @@ body {min-width: 1200px;}
 #wrap footer #f_bottom #customer_service em {}
 #wrap footer #f_bottom #customer_service #hours {}
 #wrap footer #f_bottom #customer_service #break {}
-/* ----------------------------------------------------------- fab */
-#wrap main .fab {
-    display: flex; flex-flow: row nowrap;
-    justify-content: center;
-    background-color: chartreuse;
-    width: 56px; height: 56px;
-    border-radius: 50%;
-    position: fixed; z-index: 999;
-    right: 100px; bottom: 100px;
-}
-#wrap main .fab img {width: 20px;}

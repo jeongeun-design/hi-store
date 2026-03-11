@@ -281,9 +281,9 @@
                             </ul>
                         </li>
                         <li class="main_menu"><a href="#">체험티켓</a></li>
-                        <li><a href="#">베스트</a></li>
-                        <li><a href="#">신상품</a></li>
-                        <li><a href="#">기획전</a></li>
+                        <li class="main_menu"><a href="#">베스트</a></li>
+                        <li class="main_menu"><a href="#">신상품</a></li>
+                        <li class="main_menu"><a href="#">기획전</a></li>
                     </ul>
                 </nav>
             </div>
@@ -329,10 +329,10 @@
             </div>
             <div id="product_md">
                 <div class="product_title">
-                    <h1>MD's PICK</h1>
-                    <a href="#" class="all_veiw">전체보기<img src="./images/light.svg" alt="전체보기"></a>
+                    <h1>다른 학부모님 장바구니 엿보기👀</h1>
+                    <!-- <a href="#" class="all_veiw">전체보기<img src="./images/light.svg" alt="전체보기"></a> -->
                 </div>
-                <ul id="md_category">
+                <!-- <ul id="md_category">
                     <li><button type="button" id="all">전체</button></li>
                     <li><button type="button" id="digital">가전/디지털</button></li>
                     <li><button type="button" id="Food">식품/건강</button></li>
@@ -340,19 +340,21 @@
                     <li><button type="button" id="hobbies">취미/스포츠/레저/체험</button></li>
                     <li><button type="button" id="books">도서/문구/완구</button></li>
                     <li><button type="button" id="fashion">뷰티/패션잡화</button></li>
-                </ul>
+                </ul> -->
                 <ul id="md_list">
                     <li class="md_item">
                         <a href="#">
-                            <img src="./images/product_001.jpg" alt="" class="md_img">
+                            <p class="md_img"><img src="./images/product_001.jpg" alt=""></p>
                             <p class="brand">아이스크림미디어</p>
                             <h2>★온라인최저가★ [비움] 에코브리즈 KF 94 마스크 100매 중형/대형 (장당 180원대)</h2>
                             <div class="price">
                                 <span class="discount">12%</span>
                                 <span class="current">82,100</span>
                                 <span class="original">89,000</span>
-                                <img src="./images/free_delivery.png" alt="free_delivery" class="event">
-                                <img src="./images/best.png" alt="best" class="event">
+                                <div class="badge_box">
+                                    <span class="event"><img src="./images/best.png" alt="best"></span>
+                                    <span class="event"><img src="./images/free_delivery.png" alt="free_delivery"></span>
+                                </div>
                             </div>
                         </a>
                     </li>
@@ -407,12 +409,12 @@
                     </li>
                     <!-- li 반복 -->
                 </ul>
-                <a href="#" class="more">
+                <!-- <a href="#" class="more">
                     <span>더보기</span>
                     <img src="./images/down.svg" alt="더보기">
-                </a>
+                </a> -->
             </div>
-            <div class="promotion_slide_wrap">
+            <!-- <div class="promotion_slide_wrap">
                 <div class="pr_slide_list">
                     <div class="pr_slide pr_slide1">
                         <div class="pr_slide_txt">
@@ -437,8 +439,8 @@
                     <span class="pg_number">01</span>
                     <span class="pg_all">/15</span>
                 </div>
-            </div>
-            <div id="product_new">
+            </div> -->
+<!--             <div id="product_new">
                 <div class="product_title">
                     <h1>신상품</h1>
                     <a href="#" class="all_veiw">전체보기<img src="./images/light.svg" alt="전체보기"></a>
@@ -470,7 +472,6 @@
                             </div>
                         </a>
                     </li>
-                    <!-- li 반복 -->
                 </ul>
                 <div class="scrollbar">
                     <div class="scroll_line">
@@ -481,8 +482,8 @@
                         <button type="button" id="scroll_next"><img src="./images/next_btn.svg" alt="다음"></button>
                     </div>
                 </div>
-            </div>
-            <div id="recommend">
+            </div> -->
+<!--             <div id="recommend">
                 <div id="recommend_container">
                     <div id="recommend_txt">
                         <p>기획전</p>
@@ -518,16 +519,16 @@
                         <button type="button" class="next_btn"><img src="./images/next_btn.svg" alt="다음 상품"></button>
                     </div>
                 </div>
-            </div>
-            <div id="product_best">
+            </div> -->
+            <div id="product_md product_best">
                 <div class="product_title">
                     <h1>베스트</h1>
                     <a href="#" class="all_veiw">전체보기<img src="./images/light.svg" alt="전체보기"></a>
                 </div>
-                <ol id="best_list">
-                    <li class="best_item">
+                <ol id="md_list best_list">
+                    <li class="md_item best_item">
                         <a href="#">
-                            <img src="./images/best_001.jpg" alt="" class="best_img">
+                            <p class="md_img"><img src="./images/best_001.jpg" alt=""></p>
                             <span class="number">1</span>
                             <p class="brand">아이스크림미디어</p>
                             <h2>★단독초특가★[제니튼] 닥터제니 1450 주니어 고불소치약&칫솔 세트(딸기향/자두사과향/샤인머스캣...</h2>
@@ -536,15 +537,15 @@
                                 <span class="current">82,100</span>
                                 <span class="original">89,000</span>
                                 <div class="badge_box">
-                                    <img src="./images/new.png" alt="new" class="event">
-                                    <img src="./images/free_delivery.png" alt="free_delivery" class="event">
+                                    <span class="event"><img src="./images/best.png" alt="best"></span>
+                                    <span class="event"><img src="./images/free_delivery.png" alt="free_delivery"></span>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="best_item">
+                    <li class="md_item best_item">
                         <a href="#">
-                            <img src="./images/best_002.jpg" alt="" class="best_img">
+                            <p class="md_img"><img src="./images/best_002.jpg" alt=""></p>
                             <span class="number">2</span>
                             <p class="brand">주식회사 넥스트에너지</p>
                             <h2>[경기 고양] 원마운트 스노우파크 특가(~3/2)</h2>
@@ -553,14 +554,14 @@
                                 <span class="current">82,100</span>
                                 <span class="original">89,000</span>
                                 <div class="badge_box">
-                                    <img src="./images/new.png" alt="new" class="event">
+                                    <span class="event"><img src="./images/new.png" alt="new"></span>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="best_item">
+                    <li class="md_item best_item">
                         <a href="#">
-                            <img src="./images/best_003.png" alt="" class="best_img">
+                            <p class="md_img"><img src="./images/best_003.png" alt="" alt=""></p>
                             <span class="number">3</span>
                             <p class="brand">아이스크림미디어</p>
                             <h2>★학습환경 1위템★ [펌플렉스] 바른자세 독서쿠션 독서대 레벨업쿠션130</h2>
@@ -569,15 +570,15 @@
                                 <span class="current">82,100</span>
                                 <span class="original">89,000</span>
                                 <div class="badge_box">
-                                    <img src="./images/new.png" alt="new" class="event">
-                                    <img src="./images/free_delivery.png" alt="free_delivery" class="event">
+                                    <span class="event"><img src="./images/new.png" alt="new"></span>
+                                    <span class="event"><img src="./images/free_delivery.png" alt="free_delivery"></span>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <li class="best_item">
+                    <li class="md_item best_item">
                         <a href="#">
-                            <img src="./images/best_004.png" alt="" class="best_img">
+                            <p class="md_img"><img src="./images/best_004.png" alt=""></p>
                             <span class="number">4</span>
                             <p class="brand">주식회사 스마트인피니</p>
                             <h2>[경기] 과천 서울랜드 파크이용권(~26년 3월)</h2>
@@ -586,12 +587,11 @@
                                 <span class="current">82,100</span>
                                 <span class="original">89,000</span>
                                 <div class="badge_box">
-                                    <img src="./images/best.png" alt="best" class="event">
+                                    <span class="event"><img src="./images/best.png" alt="best"></span>
                                 </div>
                             </div>
                         </a>
                     </li>
-                    <!-- li 반복 -->
                 </ol>
                 <div class="scrollbar">
                     <div class="scroll_line">
@@ -603,7 +603,7 @@
                     </div>
                 </div>
             </div>
-            <div class="promotion_slide_wrap">
+<!--             <div class="promotion_slide_wrap">
                 <div class="pr_slide_list">
                     <div class="pr_slide pr_slide1">
                         <div class="pr_slide_txt">
@@ -628,8 +628,8 @@
                     <span class="pg_number">01</span>
                     <span class="pg_all">/15</span>
                 </div>
-            </div>
-            <div id="product_sale">
+            </div> -->
+<!--             <div id="product_sale">
                 <div class="product_title">
                     <h1>특가</h1>
                     <a href="#" class="all_veiw">전체보기<img src="./images/light.svg" alt="전체보기"></a>
@@ -696,13 +696,12 @@
                             </div>
                         </a>
                     </li>
-                    <!-- li 반복 -->
                 </ul>
                 <a href="#" class="more">
                     <span>더보기</span>
                     <img src="./images/down.svg" alt="더보기">
                 </a>
-            </div>
+            </div> -->
         </main>
         <footer>
             <div id="f_top">

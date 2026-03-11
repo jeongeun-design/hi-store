@@ -17,3 +17,6 @@
 ### 0303 CSS
 * 헤더 베스트 상품 선택자 확인
 * 슬라이드 배너 CSS 구조
+### 0303 CSS
+* header .h_bottom #gnb ul .main_menu a가 부모 위로 뜸
+* 전체메뉴 팝업 고정이 안됨 
